@@ -237,7 +237,7 @@ li a:hover {
 }
 
 #about-section img {
-	width: 600px;
+	width: 90%;
 	height: auto;
 	border: 3px solid #00695c;
 	transition: all 0.5s;
