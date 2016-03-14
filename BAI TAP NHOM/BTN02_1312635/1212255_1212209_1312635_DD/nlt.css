@@ -57,6 +57,7 @@ li a:hover {
 #home {
 	height: 635px;
 	background: url(./images/home.jpg) no-repeat center center;
+	background-attachment: fixed;
 	background-size: cover;
 	padding: 0;
 	position: relative;
