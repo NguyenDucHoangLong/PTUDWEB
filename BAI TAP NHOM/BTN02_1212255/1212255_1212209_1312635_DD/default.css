@@ -1,0 +1,135 @@
+	body {
+    	background-color: orange;
+    	color: #333;
+    	font-family: 'Lato', sans-serif;
+    	font-weight: 300;
+    	line-height: 1.625;
+	}
+
+    
+    header {
+      background-color: orange;
+        color: black;
+        width: 100%;
+        height: 170px;
+        padding: 0px;
+        margin:auto;
+        float: left;
+    }
+
+    a:visited {color: #00ffff}
+    a:link {color: green}
+    a:hover {color: #ff6600}
+    a:active {color: yellow}
+
+    img.top {
+      width: 180px;
+      height: 140px;
+      margin-left: 15px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      float: left;
+
+    }
+
+    h1.top {
+      text-align: center;
+      font-style: italic;
+      font-size: 35px;
+      float: left;
+      margin-left: 300px;
+      margin-top: 50px;
+    }
+
+    aside{
+      width: 100%;
+      height: 440px;
+      background-color: blue;
+      float: left;
+    }
+
+    section{
+      background: blue;
+      width: 800px;
+      height:440px;
+      float: left;
+    }
+
+    /*.x{
+      width: 500px;
+      background-color: #6699ff;
+      height: 70px;
+      margin-left: 50px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      float: right;
+    }*/
+/*
+   ul.x {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+	li.x {
+    	float: left;
+	}
+
+	li.x a {
+    	display: block;
+    	adding: 8px;
+    	background-color: #dddddd;
+    	font-size: 20px;
+      	padding: 0px;
+	}*/
+    ul.noidung {
+      list-style-image: url(images/star.png);
+      font-style: bold;
+    }
+    div.main {
+      width: 100%;
+      height: 500px;
+      background-color: #6699ff;
+    }
+
+    div.main2{
+      background: blue;
+      width: 35%;
+      height:440;
+      float:left;
+      margin-left: 50px;
+    }
+
+    img.main1{
+      width: 400px;
+      height: 400px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 50%;
+      float: left;
+    }
+
+    img.main1:hover{
+      -moz-transform: scale(1.3);
+      -webkit-transform: scale(1.3);
+    }
+
+    li.noidung {
+      font-size: 20px;
+      padding: 0px;
+      font-weight: bold;
+    }
+    footer {
+      background-color:orange;
+        color:orange;
+        clear:both;
+        text-align:center;
+        padding:5px;
+    }
+
+    p.footer {
+      color:black; 
+      text-align:center;
+    }
