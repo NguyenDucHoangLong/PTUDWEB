@@ -28,7 +28,7 @@ hr {
 	position: relative;
 }
 
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,11 +36,11 @@ ul {
     background-color: transparent;
 }
 
-li {
+.navigation li {
     float: left;
 }
 
-li a {
+.navigation li a {
     display: block;
     color: white;
     text-align: center;
@@ -236,9 +236,16 @@ li a:hover {
 	transition: all 0.5s;
 }
 
-#about-section img {
-	width: 90%;
+.team-img {
 	height: auto;
+	width: 90%;
+	border: 3px solid #00695c;
+	transition: all 0.5s;
+}
+
+.profile-img {
+	height: 350px;
+	width: 350px;
 	border: 3px solid #00695c;
 	transition: all 0.5s;
 	border-radius: 7%;
@@ -263,4 +270,10 @@ li a:hover {
 .button:hover {
     background-color: white;
     color: black;
+}
+
+#about-section ul {
+	line-height: 30px;
+	font-size: 22px;
+	color: #b2dfdb;
 }
